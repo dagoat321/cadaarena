@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="inc-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#182A45"/>
+      <stop offset="100%" stop-color="#0F1724"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="400" rx="12" fill="url(#inc-grad)" stroke="#394E68" stroke-width="2"/>
+
+  <!-- Geometric Circuit Network -->
+  <g stroke="#63D6D0" stroke-opacity="0.25" stroke-width="1.5">
+    <line x1="80" y1="200" x2="220" y2="200"/>
+    <line x1="220" y1="200" x2="300" y2="120"/>
+    <line x1="220" y1="200" x2="300" y2="280"/>
+    <line x1="300" y1="120" x2="380" y2="200"/>
+    <line x1="300" y1="280" x2="380" y2="200"/>
+    <line x1="380" y1="200" x2="520" y2="200"/>
+  </g>
+
+  <!-- Network Nodes with Badges -->
+  <!-- Left Node: Shared Hardware -->
+  <g transform="translate(60, 160)">
+    <circle cx="40" cy="40" r="30" fill="#142032" stroke="#FFB86B" stroke-width="2"/>
+    <text x="40" y="46" font-family="'DM Sans', sans-serif" font-weight="800" font-size="18" fill="#FFB86B" text-anchor="middle">&lt;/&gt;</text>
+    <text x="40" y="90" font-family="'DM Mono', monospace" font-size="9" fill="#FFB86B" text-anchor="middle">DEVICE ACCESS</text>
+  </g>
+
+  <!-- Center Top Node: Mentorship -->
+  <g transform="translate(260, 80)">
+    <circle cx="40" cy="40" r="34" fill="#142032" stroke="#63D6D0" stroke-width="2.5"/>
+    <text x="40" y="47" font-family="'DM Sans', sans-serif" font-weight="800" font-size="22" fill="#63D6D0" text-anchor="middle">★</text>
+    <text x="40" y="94" font-family="'DM Mono', monospace" font-size="9" fill="#63D6D0" text-anchor="middle">MENTORSHIP</text>
+  </g>
+
+  <!-- Center Bottom Node: Safe Play -->
+  <g transform="translate(260, 240)">
+    <circle cx="40" cy="40" r="34" fill="#142032" stroke="#C8B8F2" stroke-width="2.5"/>
+    <text x="40" y="47" font-family="'DM Sans', sans-serif" font-weight="800" font-size="20" fill="#C8B8F2" text-anchor="middle">♥</text>
+    <text x="40" y="94" font-family="'DM Mono', monospace" font-size="9" fill="#C8B8F2" text-anchor="middle">SAFE SPACES</text>
+  </g>
+
+  <!-- Right Node: Community Hub -->
+  <g transform="translate(460, 160)">
+    <circle cx="40" cy="40" r="30" fill="#142032" stroke="#FFB86B" stroke-width="2"/>
+    <text x="40" y="47" font-family="'DM Sans', sans-serif" font-weight="800" font-size="20" fill="#FFB86B" text-anchor="middle">👥</text>
+    <text x="40" y="90" font-family="'DM Mono', monospace" font-size="9" fill="#FFB86B" text-anchor="middle">COMMUNITY</text>
+  </g>
+
+  <!-- Central Connection Heartbeat -->
+  <g transform="translate(270, 170)">
+    <rect width="60" height="60" rx="30" fill="#101A2C" stroke="#F5F1EA" stroke-width="2"/>
+    <text x="30" y="38" font-family="'DM Sans', sans-serif" font-weight="800" font-size="16" fill="#F5F1EA" text-anchor="middle">CA</text>
+  </g>
+
+  <text x="30" y="40" font-family="'DM Mono', monospace" font-size="10" fill="#AAB6C7" letter-spacing="1">CADARENA // COMMUNITY INFRASTRUCTURE</text>
+  <text x="570" y="370" font-family="'DM Mono', monospace" font-size="10" fill="#63D6D0" letter-spacing="1" text-anchor="end">EMPOWERMENT &bull; ACCESS &bull; GROWTH</text>
+</svg>
+

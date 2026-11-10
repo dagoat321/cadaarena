@@ -1,0 +1,142 @@
+{
+  "pageTitle": "About Us",
+  "eyebrow": "ABOUT US // LEADERSHIP & ORGANIZATIONAL PROFILE",
+  "headline": {
+    "prefix": "MEET THE PEOPLE",
+    "middle": "BEHIND",
+    "accent": "CADARENA."
+  },
+  "subtitle": "An open-access non-profit digital initiative founded by Michaela Angela Libut (BSIT-3B), dedicated to advancing inclusive gaming environments, digital hardware equity, and youth technology mentorship.",
+  "academicMeta": {
+    "course": "Bachelor of Science in Information Technology",
+    "section": "BSIT-3B",
+    "subject": "Integrative Programming and Technologies (IPT)",
+    "project": "Finals Capstone & Lab Activity",
+    "dataSource": "aboutUsData.json",
+    "complianceStatus": "Dynamic JSON Object Binding Verified"
+  },
+  "founder": {
+    "name": "Michaela Angela Libut",
+    "role": "Founder & Lead Product Designer",
+    "classSection": "BSIT-3B",
+    "motto": "A small idea can become something bigger when you give it room to grow and surround it with people who believe in each other.",
+    "spotlightBadge": "FOUNDER & LEADERSHIP PROFILE",
+    "leadQuote": "I founded CadaArena to bridge the gap between competitive gaming and community well-being. Too many young players get discouraged by toxic lobbies or locked out by hardware costs. Together, we're changing that narrative.",
+    "meta": [
+      { "label": "FOUNDER:", "value": "Michaela Angela Libut" },
+      { "label": "SECTION:", "value": "BSIT-3B" },
+      { "label": "ROLE:", "value": "Founder & Product Designer" },
+      { "label": "INITIATIVE:", "value": "CadaArena Non-Profit Organization" },
+      { "label": "LOCATION:", "value": "Pampanga, Central Luzon &bull; Philippines" },
+      { "label": "DATA SOURCE:", "value": "src/data/aboutUsData.json (JSON Object)" }
+    ],
+    "image": "/creator.jpg"
+  },
+  "story": {
+    "sectionNumber": "01",
+    "sectionLabel": "MY STORY",
+    "eyebrow": "ORGANIZATIONAL GENESIS",
+    "heading": "Hi, I'm Michaela Angela Libut.",
+    "paragraphs": [
+      "I am an Information Technology student in BSIT-3B, product designer, and the founder behind CadaArena. For as long as I can remember, gaming and interactive digital technology have been central to my creative journey.",
+      "Growing up playing multiplayer games and learning programming, I witnessed how virtual worlds could become incredible incubators for friendship, creative expression, and teamwork. However, I also experienced the darker side of online gaming: pervasive toxicity, hostile lobbies, gatekeeping, and the exclusion of students who cannot afford expensive gaming equipment.",
+      "I started CadaArena because I wanted to take initiative rather than simply accept gaming culture as it is. For me, CadaArena is a commitment to build the welcoming, accessible digital space I always wished existed — a place where players of all skill levels, identities, and economic backgrounds are celebrated."
+    ],
+    "pullQuote": "A small idea can become something bigger when you give it room to grow and surround it with people who believe in each other."
+  },
+  "whyNonProfit": {
+    "sectionNumber": "02",
+    "sectionLabel": "PURPOSE",
+    "eyebrow": "WHY A NON-PROFIT MODEL?",
+    "heading": "Gaming should belong to people, not just profit margins.",
+    "intro": "When establishing CadaArena, colleagues asked why we didn't turn it into a commercial esports league or a paid subscription club. The answer is grounded in our fundamental non-profit charter:",
+    "pillars": [
+      {
+        "id": "01",
+        "title": "Community Health Over Monetization",
+        "description": "Commercial gaming applications are engineered to maximize daily screen addiction and microtransaction sales. By keeping CadaArena a non-profit initiative, our success is measured purely by player safety, psychological wellness, and meaningful peer relationships."
+      },
+      {
+        "id": "02",
+        "title": "Democratizing Digital Hardware Access",
+        "description": "Many talented young people are locked out of gaming and coding simply because hardware is expensive. By operating as a non-profit, we partner with schools and community labs to offer 100% free sessions, open-source games, and device sharing funded in Philippine Pesos (₱ PHP)."
+      },
+      {
+        "id": "03",
+        "title": "Cultivating Peer Mentorship",
+        "description": "We believe senior student developers and experienced gamers have a social responsibility to mentor newcomers. CadaArena creates structured avenues for peer coaching without commercial pressures or paywalls."
+      }
+    ]
+  },
+  "prototypingLab": {
+    "eyebrow": "BEHIND THE SCREENS",
+    "title": "The Prototyping Lab & Creative Studio.",
+    "description": "From UI wireframes and React components to community tournament brackets and discord bots, everything at CadaArena is planned and built right from Michaela's creative workstation.",
+    "tools": [
+      "React 19",
+      "Stripe Payments (₱ PHP)",
+      "JSON Data Architecture",
+      "Vite 8",
+      "Design Systems",
+      "Figma"
+    ]
+  },
+  "values": {
+    "sectionNumber": "03",
+    "sectionLabel": "PRINCIPLES",
+    "eyebrow": "WHAT MATTERS TO US",
+    "heading": "The core principles that shape every decision.",
+    "list": [
+      {
+        "number": "01",
+        "title": "Creativity & Expression",
+        "description": "Treating gaming as an art form and a gateway to digital storytelling, creative coding, and collaborative design.",
+        "mark": "✳"
+      },
+      {
+        "number": "02",
+        "title": "Radical Inclusivity",
+        "description": "Ensuring that every player — regardless of gender, identity, background, or skill tier — feels safe, respected, and heard.",
+        "mark": "◎"
+      },
+      {
+        "number": "03",
+        "title": "Continuous Growth",
+        "description": "Viewing skills not as fixed talents, but as muscle built through patient practice, constructive feedback, and mutual support.",
+        "mark": "↗"
+      },
+      {
+        "number": "04",
+        "title": "Accessibility & Equity",
+        "description": "Actively removing economic and physical barriers so every student can participate in modern interactive gaming.",
+        "mark": "★"
+      }
+    ]
+  },
+  "milestones": {
+    "sectionNumber": "04",
+    "sectionLabel": "ROADMAP",
+    "eyebrow": "GOALS & ASPIRATIONS",
+    "heading": "Still learning. Still building.",
+    "intro": "CadaArena is an evolving non-profit project. As Michaela develops her programming and product design skills in BSIT-3B, concrete milestones guide CadaArena's roadmap:",
+    "shortTerm": {
+      "badge": "SHORT-TERM GOALS (2026–2027)",
+      "items": [
+        "Host regular weekly toxicity-free casual gaming socials for students.",
+        "Launch free introductory workshops on basic game design and coding.",
+        "Publish an open-source guide for running accessible games on low-spec PCs.",
+        "Partner with collegiate clubs to promote anti-cyberbullying charters."
+      ]
+    },
+    "longTerm": {
+      "badge": "LONG-TERM ASPIRATIONS",
+      "items": [
+        "Establish chartered CadaArena student gaming chapters across regional schools.",
+        "Host an annual regional student game jam focused on social impact themes.",
+        "Build a community peripheral library offering borrowed controllers & gear.",
+        "Advocate for esports wellness and digital ethics across youth organizations in the Philippines."
+      ]
+    }
+  }
+}
+

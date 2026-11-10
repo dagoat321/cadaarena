@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="about-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B283E"/>
+      <stop offset="100%" stop-color="#0E1624"/>
+    </linearGradient>
+    <linearGradient id="screen-glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#24374E"/>
+      <stop offset="100%" stop-color="#152336"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="600" height="450" rx="12" fill="url(#about-grad)" stroke="#394E68" stroke-width="2"/>
+
+  <!-- Blueprint Lines -->
+  <g stroke="#C8B8F2" stroke-opacity="0.08" stroke-width="1">
+    <line x1="40" y1="0" x2="40" y2="450"/>
+    <line x1="560" y1="0" x2="560" y2="450"/>
+    <line x1="0" y1="360" x2="600" y2="360"/>
+  </g>
+
+  <!-- Ambient Wall Glow -->
+  <circle cx="300" cy="180" r="140" fill="#63D6D0" fill-opacity="0.08"/>
+
+  <!-- Creative Desk Base -->
+  <rect x="70" y="340" width="460" height="14" rx="4" fill="#243447" stroke="#48607A" stroke-width="1.5"/>
+
+  <!-- Dual Monitor Setup -->
+  <!-- Left Monitor (Code & Community) -->
+  <g transform="translate(110, 110)">
+    <rect width="180" height="170" rx="8" fill="url(#screen-glow)" stroke="#63D6D0" stroke-width="2"/>
+    <!-- Screen Header -->
+    <rect x="0" y="0" width="180" height="24" rx="8" fill="#141E2D"/>
+    <circle cx="15" cy="12" r="3.5" fill="#FFB86B"/>
+    <circle cx="27" cy="12" r="3.5" fill="#63D6D0"/>
+    <circle cx="39" cy="12" r="3.5" fill="#C8B8F2"/>
+    <text x="60" y="15" font-family="'DM Mono', monospace" font-size="8" fill="#91A1B5">CadaArena.jsx</text>
+    
+    <!-- Code Lines / Visuals -->
+    <rect x="16" y="38" width="50" height="6" rx="2" fill="#FFB86B"/>
+    <rect x="72" y="38" width="80" height="6" rx="2" fill="#63D6D0" fill-opacity="0.6"/>
+    <rect x="28" y="52" width="110" height="5" rx="2" fill="#C8B8F2" fill-opacity="0.8"/>
+    <rect x="28" y="64" width="70" height="5" rx="2" fill="#F5F1EA" fill-opacity="0.5"/>
+    <rect x="40" y="76" width="90" height="5" rx="2" fill="#63D6D0" fill-opacity="0.7"/>
+    <rect x="40" y="88" width="60" height="5" rx="2" fill="#FFB86B" fill-opacity="0.6"/>
+    <rect x="28" y="100" width="40" height="5" rx="2" fill="#C8B8F2" fill-opacity="0.8"/>
+    <rect x="16" y="112" width="30" height="6" rx="2" fill="#FFB86B"/>
+
+    <!-- Community Growth Graph -->
+    <path d="M20 150 L50 142 L80 146 L110 132 L140 135 L165 120" fill="none" stroke="#63D6D0" stroke-width="2"/>
+    <circle cx="165" cy="120" r="4" fill="#FFB86B"/>
+
+    <!-- Stand -->
+    <rect x="78" y="170" width="24" height="60" fill="#192638" stroke="#3D536E" stroke-width="1.5"/>
+    <rect x="60" y="228" width="60" height="6" rx="2" fill="#192638" stroke="#3D536E" stroke-width="1.5"/>
+  </g>
+
+  <!-- Right Monitor (Creative Design & Arena Layout) -->
+  <g transform="translate(310, 110)">
+    <rect width="180" height="170" rx="8" fill="url(#screen-glow)" stroke="#FFB86B" stroke-width="2"/>
+    <!-- Screen Header -->
+    <rect x="0" y="0" width="180" height="24" rx="8" fill="#141E2D"/>
+    <text x="16" y="15" font-family="'DM Mono', monospace" font-size="8" fill="#FFB86B">VISION CANVAS</text>
+    
+    <!-- Arena Graphic UI -->
+    <rect x="20" y="38" width="140" height="85" rx="4" fill="#0F1826" stroke="#48607A" stroke-width="1"/>
+    <!-- Game Pad Emblem -->
+    <circle cx="90" cy="78" r="24" fill="#182A45" stroke="#63D6D0" stroke-width="1.5"/>
+    <path d="M80 78 L100 78 M90 68 L90 88" stroke="#FFB86B" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- UI Cards -->
+    <rect x="20" y="132" width="42" height="22" rx="3" fill="#FFB86B" fill-opacity="0.2" stroke="#FFB86B" stroke-width="1"/>
+    <rect x="68" y="132" width="42" height="22" rx="3" fill="#63D6D0" fill-opacity="0.2" stroke="#63D6D0" stroke-width="1"/>
+    <rect x="116" y="132" width="44" height="22" rx="3" fill="#C8B8F2" fill-opacity="0.2" stroke="#C8B8F2" stroke-width="1"/>
+
+    <!-- Stand -->
+    <rect x="78" y="170" width="24" height="60" fill="#192638" stroke="#3D536E" stroke-width="1.5"/>
+    <rect x="60" y="228" width="60" height="6" rx="2" fill="#192638" stroke="#3D536E" stroke-width="1.5"/>
+  </g>
+
+  <!-- Mechanical Keyboard & Mouse on Desk -->
+  <g transform="translate(200, 320)">
+    <rect width="130" height="18" rx="3" fill="#141E2C" stroke="#63D6D0" stroke-width="1.5"/>
+    <!-- Keyboard key rows -->
+    <line x1="8" y1="6" x2="122" y2="6" stroke="#FFB86B" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <line x1="8" y1="12" x2="122" y2="12" stroke="#63D6D0" stroke-width="1.5" stroke-dasharray="4 3"/>
+  </g>
+  <!-- Mouse -->
+  <rect x="355" y="322" width="16" height="22" rx="7" fill="#141E2C" stroke="#FFB86B" stroke-width="1.5"/>
+
+  <!-- Studio Headphones on Stand (Left of Desk) -->
+  <g transform="translate(75, 250)">
+    <path d="M15 50 C15 20 45 20 45 50" fill="none" stroke="#C8B8F2" stroke-width="3"/>
+    <rect x="8" y="45" width="14" height="24" rx="4" fill="#C8B8F2"/>
+    <rect x="38" y="45" width="14" height="24" rx="4" fill="#C8B8F2"/>
+    <line x1="30" y1="20" x2="30" y2="90" stroke="#394E68" stroke-width="2"/>
+    <circle cx="30" cy="90" r="12" fill="#243447"/>
+  </g>
+
+  <!-- Creator Badge Overlay -->
+  <g transform="translate(60, 40)">
+    <rect width="200" height="42" rx="6" fill="#101A2C" stroke="#FFB86B" stroke-width="1.5"/>
+    <circle cx="20" cy="21" r="8" fill="#FFB86B"/>
+    <text x="36" y="18" font-family="'DM Mono', monospace" font-size="9" fill="#FFB86B" font-weight="700">CREATOR WORKSPACE</text>
+    <text x="36" y="31" font-family="'DM Sans', sans-serif" font-size="10" fill="#F5F1EA">Building cadaarena.org</text>
+  </g>
+
+  <!-- Meta Info -->
+  <text x="30" y="420" font-family="'DM Mono', monospace" font-size="10" fill="#91A1B5" letter-spacing="1">ARCHIVE // CREATOR DESK &amp; PROTOTYPING LAB</text>
+  <text x="570" y="420" font-family="'DM Mono', monospace" font-size="10" fill="#63D6D0" letter-spacing="1" text-anchor="end">EST. 2026</text>
+</svg>
+
